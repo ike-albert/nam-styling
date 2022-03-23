@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/title_home"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/navigation_recommendation"
+        android:icon="@drawable/ic_recommend"
+        android:title="Recommendations"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/navigation_canvas"
+        android:icon="@drawable/ic_art_canvas"
+        android:title="Canvas"
+        app:showAsAction="always"/>
+
+</menu>
